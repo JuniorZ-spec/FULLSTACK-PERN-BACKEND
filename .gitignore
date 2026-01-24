@@ -1,0 +1,119 @@
+############################
+# OS / System files
+############################
+.DS_Store
+Thumbs.db
+desktop.ini
+
+############################
+# Node / NPM / Yarn / PNPM
+############################
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-store/
+
+############################
+# Build outputs
+############################
+dist/
+build/
+out/
+coverage/
+
+############################
+# Environment variables
+############################
+.env
+.env.*
+!.env.example
+
+############################
+# Logs
+############################
+logs/
+*.log
+
+############################
+# Vite / React
+############################
+.vite/
+.cache/
+
+############################
+# Next.js (si jamais tu utilises plus tard)
+############################
+.next/
+.vercel/
+
+############################
+# TypeScript
+############################
+*.tsbuildinfo
+
+############################
+# Prisma / Drizzle / ORM
+############################
+prisma/dev.db
+prisma/*.db
+drizzle/
+
+############################
+# Testing
+############################
+jest-cache/
+playwright-report/
+test-results/
+
+############################
+# VS Code / IDE
+############################
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+############################
+# Docker
+############################
+docker-data/
+*.pid
+
+############################
+# Temporary files
+############################
+tmp/
+temp/
+*.swp
+*.swo
+
+############################
+# Certificates / Secrets
+############################
+*.pem
+*.key
+*.crt
+
+############################
+# Local config overrides
+############################
+config.local.js
+config.local.ts
+
+############################
+# API Keys / Auth
+############################
+*.secret
+*.token
+
+############################
+# Mac specific
+############################
+.AppleDouble
+.LSOverride
