@@ -39,5 +39,7 @@ async function runMigration() {
         console.error('❌ Migration failed:', error);
         process.exit(1);
     }
-    runMigration();
+
 }
+
+runMigration();
